@@ -1,6 +1,6 @@
 def findBMI(height, weight):
     bmi = weight / (height ** 2)
-    return bmi
+    return round(bmi, 2)
 
 
 
