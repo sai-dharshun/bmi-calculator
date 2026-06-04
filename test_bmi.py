@@ -1,10 +1,10 @@
 import unittest
-# Import the functions from your calc.py file
+# Import the functions from bmi.py
 from bmi import findBMI
 
 class TestCalculator(unittest.TestCase):
 
-    # Test 1: Does addition work?
+    # Test 1: Does it give correct BMI?
     def test_BMI(self):
         self.assertEqual(findBMI(1.8, 75), 23.15)
 
